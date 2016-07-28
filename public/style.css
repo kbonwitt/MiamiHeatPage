@@ -1,0 +1,77 @@
+body {
+  background-image: url("http://feelgrafix.com/data_images/out/2/745434-basketball-background.jpg");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: black;
+  font-family: 'Harmattan', sans-serif;
+  color: white;
+  font-size: 115%;
+}
+
+#heatbutton {
+  display: block;
+  margin: auto;
+}
+
+.slogan {
+  text-align: center;
+}
+
+#heatcom {
+  display: block;
+  margin: auto;
+}
+
+.freea {
+  margin: auto;
+  width: 70%;
+}
+
+/*Ask about
+@media screen and (max-width: 228px) {
+  ul {
+    font-size: 22px;
+  }
+}*/
+
+
+.textfreea {
+  text-align: center;
+  font-size: 25px;
+}
+
+.footerbutton {
+  text-align: center;
+  margin: -2.5px;
+  font-size: 25px;
+  color: white;
+  width: 20%;
+  height: 45px;
+  line-height: 50px;
+  list-style: none;
+  background-color: rgb(171, 30, 41);
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.dleague {
+  margin: auto;
+  text-align: center;
+}
+
+.footerbutton:hover {
+  animation-name: color;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes color {
+  0% {background-color: rgb(171, 30, 41);}
+  100% {background-color: black;}
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
